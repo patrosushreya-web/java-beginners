@@ -31,7 +31,9 @@ public class java7 {
         String empty = "";
         boolean isEmpty = empty.isEmpty();
         System.out.println(isEmpty);
-        
+        //we can also check the string is empty or not by using length method
+        boolean isEmpty2 = empty.length() == 0;
+        System.out.println(isEmpty2);
         
 
     }
